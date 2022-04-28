@@ -1,0 +1,28 @@
+.big-img img{
+    border: 1px solid gray;
+    width: 550px !important;
+    height: 380px !important;
+    object-fit: cover;
+    object-position:  50% 70%;
+}
+.small-img a:link{
+    text-decoration: none;
+
+}
+.small-img img{
+    border: 1px solid gray;
+    width: 115px;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.form-group #quantiy:focus{
+    border: 1px solid gray !important;
+    box-shadow: none !important;
+}
+
+
+  

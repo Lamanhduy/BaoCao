@@ -1,0 +1,63 @@
+.font-weight-bold {
+    font-weight: 500!important;
+    font-size: 20px;
+}
+
+.bred_nav {
+    margin-bottom: 35px;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: 20px!important;
+}
+
+.tuinho {
+    padding: 15px 10px;
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-body{
+    text-align: center;
+    padding: 15px 20px !important;
+}
+.card-body .card-title{
+    line-height: 35px !important;
+    margin-bottom: 5px;
+}
+
+.text-truncate {
+    font-size: 20px;
+}
+
+.card-footer a{
+    padding: 10px 10px;
+    font-size: 17px;
+    color: #000 !important;
+    /* text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   */
+}
+
+.btn-primary,
+.btn-success
+ {
+    background-color: #ccc !important; 
+    border-color: #ccc !important;
+
+}
+
+#products{
+    margin-top: 15px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+      <!-- Header : use css bootstrap -->
+      <section class="ftco-section" style="position: fixed; top: 0; left: 0; right: 0; z-index: 9;">
+        <div class="container-fluid p-0">
+          <div class="container-fluid px-md-5 bg-light">
+            <div class="row justify-content-between">
+              <div class="col-md-8 order-md-last">
+                <div class="row ">
+                  <div class="col-md-6 text-center" style="padding-top: 9px;">
+                    <a class="navbar-brand" href="#"><img src="../assets/img/logo-black.png"></a>
+                  </div>
+                  <div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
+                    <form class="d-flex" style="padding-top: 10px;">
+                      <input class="form-control mr-2 bg-light text-dark pl-3" type="search" placeholder="Tìm kiếm sản phẩm?" style="width: 300px; outline: none; color: black; -webkit-box-shadow: none !important; box-shadow: none !important">
+                      <button type="submit" placeholder="" class="btn btn-outline-primary bg-light text-secondary" style="height: 50px; border: 1px solid rgba(255, 255, 255, 0.1); overflow: hidden; border-radius: 40px; -webkit-box-shadow: none !important;"><span class="fa fa-search"></span></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class=" d-flex">
+                <form class="d-flex form-group" style="padding-top: 12px;" action="../html/DangNhap.html">
+                  <a href="" ><button class="btn btn-light  ml-5 text-secondary "  type="submit">ĐĂNG NHẬP</button></a>
+                </form>
+                <form class="d-flex form-group" style="padding-top: 12px;" action="../html/DangKy.html">
+                  <a href="" ><button class="btn btn-light  ml-5 text-secondary "  type="submit">ĐĂNG KÝ</button></a>
+                </form>
+              </div>
+            </div>
+          </div>
+          <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container-fluid">
+            
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> 
+              </button>
+              <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav m-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TRANG CHỦ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                      TÀI KHOẢN
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">MY ACOUNT</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">CART</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                      SẢN PHẨM
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../html/productList.html">TÚI CỠ NHỎ</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">TÚI CỠ TRUNG</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">TÚI CỠ LỚN</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">VÍ</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/GioiThieu.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </section>
+
+      <!-- Slider -->
+      <div class="main_slider" style="background-image:url(../assets/img/slider.jpg); position: relative; top: -28px;">
+        <div class="container fill_height">
+          <div class="row align-items-center fill_height">
+            <div class="col">
+              <div class="main_slider_content">
+                <h6>Spring / Summer Collection 2022</h6>
+                <h1>Giảm giá tới 30% cho hàng mới về</h1>
+                <div class="red_button shop_now_button"><a href="#">shop now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+        <!-- Review -->
+          <div class="review" style="padding-top: 122px;">
+            <h2>LEMINO LÀ THƯƠNG HIỆU GÌ?</h2>
+            <hr>
+            <p>Lemino là một trong những nhãn hiệu chuyên sản xuất các sản phẩm ví da, túi xách, phụ kiện khá nổi tiếng trên thế giới. Đây là thương hiệu thời trang cao cấp đến từ Italia đamg có sức tiêu thụ khá chạy và được nhiều khách hàng là ngôi sao, người nổi tiếng yêu thích.</p>
+            <p>Nhờ việc sở hữu đội ngũ những nhà thiết kế hàng đầu, Lemino luôn cho ra đời những mẫu túi đẹp và thanh lịch nhất, có thể làm hài lòng mọi người dùng. Mang cảm hứng đặc trưng của Italy, kết hợp với những giá trị thẩm mỹ của nghệ thuật hiện đại, Lemino gây dựng nên những dấu ấn riêng của mình, điều mà không phải nhãn hàng nào cũng làm được. Trẻ trung, ấn tượng, bền bỉ đó là những cụm từ thường được sử dụng để miêu tả về sản phẩm của thương hiệu này.</p>
+          </div>
+        
+        <!-- New product -->
+          <div class="brand-new">
+            <h2>SẢN PHẨM MỚI NHẤT</h2>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="myCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO/1.jpg" class="img-fluid" alt="">									
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE32413-24</h4>									
+                                                    <p class="item-price"><strike>984.000vnđ</strike> <b>780.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//2.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE12637-12</h4>									
+                                                    <p class="item-price"><strike>1.065.000vnđ</strike> <b>987.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//3.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE35323-32</h4>									
+                                                    <p class="item-price"><strike>700.000vnđ</strike> <b>560.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//4.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE83732-09</h4>									
+                                                    <p class="item-price"><strike>786.000vnđ</strike> <b>569.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//5.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE22360-40</h4>									
+                                                    <p class="item-price"><strike>835.000vnđ</strike> <b>584.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//6.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE28273-98</h4>									
+                                                    <p class="item-price"><strike>728.000vnđ</strike> <b>678.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//7.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE16363-32</h4>									
+                                                    <p class="item-price"><strike>728.000vnđ</strike> <b>523.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//8.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE12274-23</h4>									
+                                                    <p class="item-price"><strike>980.000vnđ</strike> <b>870.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//9.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE02847-53</h4>									
+                                                    <p class="item-price"><strike>1.220.000vnđ</strike> <b>980.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//10.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE72633-65</h4>									
+                                                    <p class="item-price"><strike>2.000.000vnđ</strike> <b>970.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//11.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE91832-82</h4>									
+                                                    <p class="item-price"><strike>810.000vnđ</strike> <b>670.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="../assets/img/home_img/IMG_PRO//12.jpg" class="img-fluid" alt="">										
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>LE83721-32</h4>									
+                                                    <p class="item-price"><strike>1.087.000vnđ</strike> <b>790.000vnđ</b></p>
+                                                </div>						
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+                    <a class="carousel-control-prev bg-dark" href="#myCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next bg-dark" href="#myCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            </div>
+          </div>
+        
+        <!--Suggest -->
+          <div class="suggest-new">
+            <h2>NHÓM SẢN PHẨM</h2>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="myIdeaCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                  <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                      <div class="img-box">
+                                          <img src="../assets/img/home_img/img_classify/1.webp" class="img-fluid" alt="">									
+                                      </div>
+                                      <div class="suggest-content">
+                                          <h4>TÚI CỠ NHỎ</h4>									
+                                      </div>						
+                                    </div> 
+                                  </div>
+                                  <div class="col-sm-3">
+                                    <div class="thumb-wrapper">               
+                                      <div class="img-box">
+                                          <img src="../assets/img/home_img/img_classify/2.webp" class="img-fluid" alt="">									
+                                      </div>
+                                      <div class="suggest-content">
+                                          <h4>TÚI CỠ TRUNG</h4>									
+                                      </div>						
+                                    </div> 
+                                  </div>
+                                  <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                      <div class="img-box">
+                                          <img src="../assets/img/home_img/img_classify/3.webp" class="img-fluid" alt="">									
+                                      </div>
+                                      <div class="suggest-content">
+                                          <h4>TÚI CỠ LỚN</h4>									
+                                      </div>						
+                                    </div> 
+                                  </div>
+                                  <div class="col-sm-3">
+                                    <div class="thumb-wrapper">               
+                                      <div class="img-box">
+                                          <img src="../assets/img/home_img/img_classify/4.webp" class="img-fluid" alt="">									
+                                      </div>
+                                      <div class="suggest-content">
+                                          <h4>VÍ</h4>									
+                                      </div>						
+                                    </div> 
+                                  </div>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+    
+          </div>
+      </div>
+      
+      <!-- Footer -->
+      <footer class="footer bg-dark">
+        <div class="container">
+          <div class="row" style="padding-top: 15px;">
+            <div class="col-lg-6">
+              <div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+                <ul class="footer_nav">
+                  <li><a class="text-secondary" href="../html/index.html">Trang chủ</a></li>
+                  <li><a class="text-secondary" href="#">Sản phẩm</a></li>
+                  <li><a class="text-secondary" href="../login_signin_aboutus/HTML/GioiThieu.html">About us</a></li>
+                  <li><a class="text-secondary" href="#">Contact</a></li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+                <ul>
+                  <li><a href="#" class="text-secondary"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="text-secondary"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="text-secondary"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="text-secondary"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="text-secondary"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="footer_nav_container">
+                <div class="cr text-secondary">©2022 Dang Thi Ngoc Lan _ 20101361 | ©2022 Lam Anh Duy _ 18031311</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
